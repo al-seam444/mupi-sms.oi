@@ -1,0 +1,472 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta name="description" content="MUGPI Sports Management – The official college sports platform for teams, tournaments, news, gallery, and student athlete registration." />
+
+  <title>MUGPI Sports Management | Campus Athletics &amp; Tournaments</title>
+
+  <!-- Bootstrap 5 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+
+</head>
+
+<body>
+
+  <!-- HEADER / NAVIGATION -->
+  <header id="main-header" class="site-header">
+
+    <div class="header-inner">
+
+      <!-- BRAND -->
+      <a href="index.html" class="brand" aria-label="MUGPI Sports Management Home">
+
+        <div class="brand-logo">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+
+            <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"/>
+
+            <path d="m12 7 4 3-1.5 5h-5L8 10z"/>
+
+            <path d="M12 2v5M16 10l4.3-1.4M14.5 15l2.7 3.6M9.5 15l-2.7 3.6M8 10l-4.3-1"/>
+          </svg>
+        </div>
+
+        <div class="brand-text">
+          <span class="brand-name">MUGPI</span>
+          <span class="brand-sub">Sports Management</span>
+        </div>
+
+      </a>
+
+
+      <!-- DESKTOP NAVIGATION -->
+      <nav class="main-nav" aria-label="Desktop Navigation">
+
+        <a href="index.html" class="nav-item-link active" aria-current="page">Home</a>
+
+        <a href="sports.html" class="nav-item-link">Sports</a>
+
+        <a href="tournament.html" class="nav-item-link">Tournaments</a>
+
+        <a href="news.html" class="nav-item-link">News &amp; Notices</a>
+
+        <a href="gallery.html" class="nav-item-link">Gallery</a>
+
+        <a href="about.html" class="nav-item-link">Contact Us</a>
+
+      </nav>
+
+
+      <!-- HEADER BUTTON -->
+      <div class="header-cta">
+
+        <a href="registration.html" class="neon-btn">
+          <i class="fas fa-user-plus"></i>
+          <span>Student Registration</span>
+        </a>
+
+      </div>
+
+
+      <!-- MOBILE MENU BUTTON -->
+      <button id="mobile-menu-btn"
+        class="menu-btn"
+        type="button"
+        aria-label="Toggle Navigation Menu"
+        aria-expanded="false">
+
+        <i id="hamburger-icon" class="fas fa-bars"></i>
+
+      </button>
+
+    </div>
+
+  </header>
+
+
+  <!-- MOBILE NAVIGATION DRAWER -->
+  <div id="mobile-drawer" class="mobile-drawer">
+
+    <div>
+
+      <div class="drawer-top">
+
+        <span class="drawer-title">Navigation</span>
+
+        <button id="close-drawer-btn"
+          class="drawer-close"
+          type="button"
+          aria-label="Close menu">
+
+          <i class="fas fa-times"></i>
+
+        </button>
+
+      </div>
+
+
+      <!-- MOBILE LINKS -->
+      <nav class="drawer-nav" aria-label="Mobile Navigation">
+
+        <a href="index.html" class="mobile-nav-link">
+          <i class="fas fa-home"></i>
+          <span>Home</span>
+        </a>
+
+        <a href="sports.html" class="mobile-nav-link">
+          <i class="fas fa-futbol"></i>
+          <span>Sports</span>
+        </a>
+
+        <a href="tournament.html" class="mobile-nav-link">
+          <i class="fas fa-trophy"></i>
+          <span>Tournaments</span>
+        </a>
+
+        <a href="news.html" class="mobile-nav-link">
+          <i class="fas fa-bullhorn"></i>
+          <span>News &amp; Notices</span>
+        </a>
+
+        <a href="gallery.html" class="mobile-nav-link">
+          <i class="fas fa-images"></i>
+          <span>Gallery</span>
+        </a>
+
+        <a href="about.html" class="mobile-nav-link">
+          <i class="fas fa-info-circle"></i>
+          <span>About Us</span>
+        </a>
+
+      </nav>
+
+    </div>
+
+
+    <!-- DRAWER BUTTON -->
+    <div class="drawer-bottom">
+
+      <a href="registration.html" class="drawer-cta neon-btn">
+        <i class="fas fa-user-plus"></i>
+        Register Now
+      </a>
+
+    </div>
+
+  </div>
+
+
+  <!-- MOBILE BACKDROP -->
+  <div id="mobile-backdrop" class="mobile-backdrop"></div>
+
+
+  <!-- MAIN CONTENT -->
+  <main id="main-content" class="site-main">
+
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero">
+
+      <!-- HERO LOGO IMAGE -->
+      <!-- <img
+        src="css/m.jpg"
+        alt="MUGPI Sports Management Logo"
+        class="hero-logo"
+      /> -->
+
+
+      <!-- BACKGROUND GLOW -->
+      <div class="hero-glow hero-glow--green"></div>
+
+      <div class="hero-glow hero-glow--blue"></div>
+
+
+      <div class="site-container hero-inner">
+
+        <div class="hero-content text-center">
+
+
+          <!-- ACADEMIC BADGE -->
+          <div class="hero-badge">
+
+            <span class="hero-badge-dot"></span>
+
+            <span>Academic Season 2026–2027 · Open</span>
+
+          </div>
+
+
+          <!-- HERO TITLE -->
+          <h1 class="hero-title">
+            Welcome to MUGPI Sports Management
+          </h1>
+
+
+          <!-- HERO DESCRIPTION -->
+          <p class="hero-lead">
+            Discover the world of campus sports and athletics.
+            Join our sports community, explore exciting tournaments,
+            stay updated with the latest news, and showcase your talent.
+          </p>
+
+
+          <!-- HERO BUTTONS -->
+          <div class="hero-actions">
+
+            <a href="registration.html" class="neon-btn btn-neon-lg">
+
+              <span>Student Registration</span>
+
+              <i class="fas fa-arrow-right"></i>
+
+            </a>
+
+
+            <a href="tournament.html" class="btn-ghost-dark">
+
+              Explore Tournaments
+
+            </a>
+
+          </div>
+
+
+          <!-- STATISTICS -->
+          <div class="stats-grid">
+
+
+            <div class="stat-card text-center neon-border-hover">
+
+              <div class="stat-number" id="stat-sports">
+                12+
+              </div>
+
+              <div class="stat-label">
+                Sports Disciplines
+              </div>
+
+            </div>
+
+
+            <div class="stat-card text-center neon-border-hover">
+
+              <div class="stat-number" id="stat-athletes">
+                850+
+              </div>
+
+              <div class="stat-label">
+                Active Student Athletes
+              </div>
+
+            </div>
+
+
+            <div class="stat-card text-center neon-border-hover">
+
+              <div class="stat-number" id="stat-events">
+                24+
+              </div>
+
+              <div class="stat-label">
+                Annual Tournaments
+              </div>
+
+            </div>
+
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+
+    <div class="site-container footer-inner">
+
+      <div class="footer-grid">
+
+
+        <!-- FOOTER BRAND -->
+        <div class="footer-brand">
+
+          <div class="footer-brand-row">
+
+            <div class="footer-logo">
+              <i class="fas fa-trophy"></i>
+            </div>
+
+            <span class="footer-brand-name">
+              MUGPI Sports
+            </span>
+
+          </div>
+
+
+          <p class="footer-about">
+            Empowering college athletics through modern tournament
+            management, athlete registration, and real-time news updates.
+          </p>
+
+
+          <!-- SOCIAL LINKS -->
+          <div class="footer-social">
+
+            <a href="#" aria-label="Facebook">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+
+            <a href="#" aria-label="YouTube">
+              <i class="fab fa-youtube"></i>
+            </a>
+
+            <a href="#" aria-label="Instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+
+          </div>
+
+        </div>
+
+
+
+        <!-- QUICK NAVIGATION -->
+        <div>
+
+          <h4 class="footer-heading">
+            Quick Navigation
+          </h4>
+
+          <ul class="footer-links">
+
+            <li><a href="index.html">Home</a></li>
+
+            <li><a href="sports.html">Sports Disciplines</a></li>
+
+            <li><a href="tournament.html">Tournaments</a></li>
+
+            <li><a href="news.html">News &amp; Notices</a></li>
+
+            <li><a href="registration.html">Athlete Registration</a></li>
+
+          </ul>
+
+        </div>
+
+
+
+        <!-- DISCIPLINES -->
+        <div>
+
+          <h4 class="footer-heading">
+            Disciplines
+          </h4>
+
+          <ul class="footer-links">
+
+            <li><a href="sports.html">Football League</a></li>
+
+            <li><a href="sports.html">Cricket Tournament</a></li>
+
+            <li><a href="sports.html">Basketball Court</a></li>
+
+            <li><a href="sports.html">Annual Athletics</a></li>
+
+            <li><a href="sports.html">Indoor Table Tennis</a></li>
+
+          </ul>
+
+        </div>
+
+
+
+        <!-- NEWSLETTER -->
+        <div>
+
+          <h4 class="footer-heading">
+            Stay Updated
+          </h4>
+
+          <p class="footer-note">
+            Subscribe to get instant alerts on match schedules and trial dates.
+          </p>
+
+
+          <form id="newsletter-form" class="newsletter-form">
+
+            <input
+              type="email"
+              required
+              placeholder="Enter email address"
+              class="custom-input newsletter-input"
+            />
+
+            <button type="submit" class="neon-btn newsletter-btn">
+              Subscribe
+            </button>
+
+          </form>
+
+        </div>
+
+
+      </div>
+
+
+
+      <!-- FOOTER BOTTOM -->
+      <div class="footer-bottom">
+
+        <p>
+          &copy; 2026 MUGPI Sports Management. All rights reserved.
+        </p>
+
+
+        <div class="footer-legal">
+
+          <a href="#">Privacy Policy</a>
+
+          <a href="#">Terms of Service</a>
+
+          <a href="#">Campus Code</a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+
+
+  <!-- JAVASCRIPT -->
+  <script src="js/main.js"></script>
+
+</body>
+</html>
